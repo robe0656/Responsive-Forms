@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.CSS">
+    <title>This is a form</title>
+    <h1 class="masthead">This is a form</h1>
+    <h3 class="masthead">Please fill this form out</h3>
+</head>
+<body>
+    <div class="wrapper">
+
+   
+    <form action="process.php" method="POST" >
+     
+      <div class="box">
+       <label for="text">Text</label>
+        <input type="text" name="text" id="text" maxlength="100" placeholder="text"/>
+        </div>
+        
+        <div class="box">
+        <label for="E-mail">E-mail</label>	
+        <input type="text" name="E-mail" id="E-mail" maxlength="100" placeholder="E-mail"/>
+        </div>
+        
+        <div class="box">
+        <label for="URL">URL</label>
+        <input type="text" name="URL" id="URL" maxlength="100" placeholder="URL"/>
+        </div>
+        
+        <div class="box">
+        <label for="Password">Password</label>	
+        <input type="password" name="pass" id="pass" maxlength="100" placeholder="Password"/>
+            </div>
+            
+            <div class="boxbtn">
+        <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit Form"/>
+        </div>
+        
+    </form>
+
+
+    </div>
+</body>
+</html>
